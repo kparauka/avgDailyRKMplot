@@ -9,11 +9,11 @@
 rm(list = ls(all = TRUE))
 
 # and set the working directory (obviously put in whatever yours is)
-setwd("~/Desktop/Thesis/Data/Code") 
+# setwd("~/Desktop/Thesis/Data/Code") 
 
 # install and load packages
 install.packages(c("lubridate", "readr", "plyr", "hydroTSM", "tidyr"))
-library(lubridate); library(plyr); library(readr); library(dplyr); library(ggplot2); library(hydroTSM); library(tidyr); library(paletteer)
+library(lubridate); library(plyr); library(readr); library(dplyr); library(ggplot2); library(hydroTSM); library(tidyr); # library(paletteer)
 
 
 # Read in data ------------------------------------------------------------
